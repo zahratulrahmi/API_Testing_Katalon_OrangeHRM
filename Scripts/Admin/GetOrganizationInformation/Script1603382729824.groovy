@@ -16,5 +16,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WS.sendRequestAndVerify(findTestObject('Postman/Admin/GET_GetOrganizationInformation', [('host') : GlobalVariable.host, ('token') : GlobalVariable.token]))
+WS.sendRequestAndVerify(findTestObject('API/Admin/GET_GetOrganizationInformation', [('host') : GlobalVariable.host, ('token') : GlobalVariable.token]))
 

@@ -16,11 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WS.sendRequestAndVerify(findTestObject('Postman/Attendance/POST_PunchIn_InvalidEmployeeID', [('host') : GlobalVariable.host
-            , ('token') : GlobalVariable.token]))
+WS.sendRequestAndVerify(findTestObject('API/Attendance/POST_PunchIn', [('host') : GlobalVariable.host, ('token') : GlobalVariable.token]))
 
-WS.sendRequestAndVerify(findTestObject('Postman/Attendance/POST_PunchIn', [('host') : GlobalVariable.host, ('token') : GlobalVariable.token]))
-
-WS.sendRequestAndVerify(findTestObject('Postman/Attendance/POST_PunchIn_AlreadyPunchIn', [('host') : GlobalVariable.host
-            , ('token') : GlobalVariable.token]))
+WS.sendRequestAndVerify(findTestObject('API/Attendance/POST_PunchIn_AlreadyPunchIn', [('host') : GlobalVariable.host, ('token') : GlobalVariable.token]))
 

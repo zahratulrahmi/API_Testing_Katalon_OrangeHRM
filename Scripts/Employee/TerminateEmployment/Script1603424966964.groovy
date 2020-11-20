@@ -16,8 +16,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WS.sendRequestAndVerify(findTestObject('Postman/Employee/POST_TerminateEmployment', [('host') : GlobalVariable.host, ('token') : GlobalVariable.token]))
-
-WS.sendRequestAndVerify(findTestObject('Postman/Employee/POST_TerminateEmployment_BlankMandatoryField', [('host') : GlobalVariable.host
-            , ('token') : GlobalVariable.token]))
+WS.sendRequestAndVerify(findTestObject('API/Employee/POST_TerminateEmployment', [('host') : GlobalVariable.host, ('token') : GlobalVariable.token]))
 
