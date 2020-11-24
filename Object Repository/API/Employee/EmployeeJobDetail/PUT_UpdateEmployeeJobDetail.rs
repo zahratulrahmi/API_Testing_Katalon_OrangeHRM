@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;title\&quot;:\&quot;1\&quot;,\n  \t\&quot;category\&quot;:\&quot;1\&quot;,\n  \t\&quot;status\&quot;:\&quot;1\&quot;,\n  \t\&quot;joinedDate\&quot;:\&quot;2020-10-21\&quot;,\n  \t\&quot;startDate\&quot;:\&quot;2020-10-21\&quot;,\n  \t\&quot;endDate\&quot;:\&quot;2021-10-21\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;title\&quot;:\&quot;100\&quot;,\n  \t\&quot;category\&quot;:\&quot;56\&quot;,\n  \t\&quot;status\&quot;:\&quot;2\&quot;,\n  \t\&quot;joinedDate\&quot;:\&quot;2020-10-21\&quot;,\n  \t\&quot;startDate\&quot;:\&quot;2020-10-21\&quot;,\n  \t\&quot;endDate\&quot;:\&quot;2021-10-21\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

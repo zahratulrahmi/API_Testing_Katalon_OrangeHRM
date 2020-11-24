@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Bearer 733e8cab7a2255fbc30e0109574c033e69e52e59'</initValue>
+      <initValue>'Bearer 31bd8f76bb43961580ec67e8b5740bbdcdf84ab6'</initValue>
       <name>token</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'EC0065'</initValue>
+      <initValue>'0069'</initValue>
       <name>employeeCode</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
